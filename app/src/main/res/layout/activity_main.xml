@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/butejer1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EJERCICIO 1"
+        android:onClick="toEjercicio1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.102"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.161" />
+
+    <Button
+        android:id="@+id/butejer2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ejercicio 2"
+        android:onClick="toEjercicio2"
+        app:layout_constraintBottom_toBottomOf="@+id/butejer1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.052"
+        app:layout_constraintStart_toEndOf="@+id/butejer1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/butejer3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:onClick="toEjercicio3"
+        android:text="Ejercicio 3"
+        app:layout_constraintBottom_toBottomOf="@+id/butejer2"
+        app:layout_constraintStart_toEndOf="@+id/butejer2" />
+
+    <Button
+        android:id="@+id/butejer4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ejercicio 4"
+        android:onClick="toEjercicio4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.102"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/butejer1"
+        app:layout_constraintVertical_bias="0.03" />
+
+    <Button
+        android:id="@+id/butejer5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:onClick="toEjercicio5"
+        android:text="Ejercicio 5"
+        app:layout_constraintEnd_toEndOf="@+id/butejer2"
+        app:layout_constraintStart_toEndOf="@+id/butejer4"
+        app:layout_constraintTop_toTopOf="@+id/butejer4" />
+
+    <Button
+        android:id="@+id/butejer6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="Ejercicio 6"
+        android:onClick="toEjercicio6"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/butejer5"
+        app:layout_constraintTop_toTopOf="@+id/butejer5"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/butejer7"
+        android:layout_width="105dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="16dp"
+        android:text="Ejercicio 7"
+        android:onClick="toEjercicio7"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.102"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/butejer4"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/butejer8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="toEjercicio8"
+        android:text="Ejercicio 8"
+        app:layout_constraintBottom_toBottomOf="@+id/butejer7"
+        app:layout_constraintEnd_toEndOf="@+id/butejer5"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/butejer5"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/butejer9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ejercicio 9"
+        android:onClick="toEjercicio9"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/butejer6"
+        app:layout_constraintTop_toBottomOf="@+id/butejer6"
+        app:layout_constraintVertical_bias="0.028" />
+
+    <Button
+        android:id="@+id/butejer10"
+        android:layout_width="112dp"
+        android:layout_height="45dp"
+        android:onClick="toEjercicio10"
+        android:text="EJERCICIO 10"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.254"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/butejer8"
+        app:layout_constraintVertical_bias="0.119" />
+
+    <Button
+        android:id="@+id/butejer11"
+        android:layout_width="112dp"
+        android:layout_height="45dp"
+        android:onClick="toEjercicio11"
+        android:text="EJERCICIO 11"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.126"
+        app:layout_constraintStart_toEndOf="@+id/butejer10"
+        app:layout_constraintTop_toBottomOf="@+id/butejer8"
+        app:layout_constraintVertical_bias="0.119" />
+
+    <TextView
+        android:id="@+id/bienvenido"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bienvenido"
+        android:textSize="50sp"
+        app:layout_constraintBottom_toTopOf="@+id/butejer2"
+        app:layout_constraintEnd_toEndOf="@+id/butejer2"
+        app:layout_constraintHorizontal_bias="0.453"
+        app:layout_constraintStart_toEndOf="@+id/butejer1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.697" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

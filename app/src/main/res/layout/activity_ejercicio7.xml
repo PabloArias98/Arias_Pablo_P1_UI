@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp" >
+
+
+    <Button
+        android:id="@+id/but_arrizq2"
+        android:layout_width="123dp"
+        android:layout_height="64dp"
+        android:layout_alignParentLeft="true"
+        android:onClick="toMainActivity"
+        android:layout_marginLeft="-18dp"
+        android:text="Arriba Izquierda" />
+
+    <Button
+        android:id="@+id/but_arrder3"
+        android:layout_width="116dp"
+        android:layout_height="64dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="1dp"
+        android:onClick="toMainActivity"
+        android:text="Arriba Derecha" />
+
+    <Button
+        android:id="@+id/but_abjder3"
+        android:layout_width="125dp"
+        android:layout_height="67dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="6dp"
+        android:onClick="toMainActivity"
+        android:text="Abajo Derecha" />
+
+    <Button
+        android:id="@+id/but_center2"
+        android:layout_width="395dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:onClick="toMainActivity"
+        android:text="Menú" />
+
+    <Button
+        android:id="@+id/but_abjizq3"
+        android:layout_width="126dp"
+        android:layout_height="64dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="6dp"
+        android:onClick="toMainActivity"
+        android:text="Abajo Izquierda" />
+
+
+</RelativeLayout>

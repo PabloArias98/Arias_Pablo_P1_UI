@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PabloProj</string>
+    <string name="conectar">接続する</string>
+    <string name="campos">田畑</string>
+    <string name="usuario">ユーザー</string>
+    <string name="contrasena">パスワード</string>
+    <string name="olvido">パスワードを忘れた</string>
+    <string name="Usu_error">有効なユーザー名を入力してください</string>
+    <string name="Pass_error">有効なパスワードを入力してください</string>
+    <string name="iniciosesion">ログインする</string>
+    <string name="regreso">戻る</string>
+    <string name="arr_izq">左上</string>
+    <string name="arr_der">右上</string>
+    <string name="abj_izq">左下</string>
+    <string name="abj_der">右下</string>
+    <string name="menu_center">センター</string>
+    <string name="Log_success">データを修正し、リターンキーを押してください。</string>
+    <string name="preguntanaveg">wefwefwefwefwefwef</string>
+</resources>

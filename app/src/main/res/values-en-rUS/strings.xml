@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PabloProj</string>
+    <string name="conectar">Connect</string>
+    <string name="campos">Enter the following fields</string>
+    <string name="usuario">User</string>
+    <string name="contrasena">Password</string>
+    <string name="olvido">Did you forget your password?</string>
+    <string name="Usu_error" >Enter a valid username</string>
+    <string name="Pass_error" >Enter a valid password</string>
+    <string name="iniciosesion">Login</string>
+    <string name="regreso">Back</string>
+    <string name="menu_center">Center</string>
+    <string name="abj_der">Down right</string>
+    <string name="abj_izq">Down left</string>
+    <string name="arr_der">Top right</string>
+    <string name="arr_izq">Top left</string>
+    <string name="Log_success">Correct data, press return!</string>
+    <string name="preguntanaveg">What browser do you select?</string>
+
+</resources>

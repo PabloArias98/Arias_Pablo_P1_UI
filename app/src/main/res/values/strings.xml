@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">PabloProj</string>
+    <string name="conectar">Conectar</string>
+    <string name="campos">Introduzca los siguientes campos</string>
+    <string name="usuario">Usuario</string>
+    <string name="contrasena">Contrasena</string>
+    <string name="olvido">Olvidaste tu contraseña?</string>
+    <string name="Usu_error">Introduzca un usuario valido</string>
+    <string name="Pass_error">Introduzca una contraseña valida</string>
+    <string name="iniciosesion">Inicio sesion</string>
+    <string name="regreso">regreso</string>
+    <string name="arr_izq">Arriba izquierda</string>
+    <string name="arr_der">Arriba derecha</string>
+    <string name="abj_izq">Abajo izquierda</string>
+    <string name="abj_der">Abajo derecha</string>
+    <string name="menu_center">Centro</string>
+    <string name="Log_success">Datos correctos, pulse regresar!</string>
+    <string name="preguntanaveg">Que navegador desea utilizar?</string>
+
+</resources>
