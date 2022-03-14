@@ -1,0 +1,3 @@
+# Arias_Pablo_P1_UI
+
+The first "serious" project I did with Android Studio, consists of different screens in which I interact with various UI elements such as buttons, text fields, toasts, TextViews etc...
